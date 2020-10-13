@@ -12,4 +12,4 @@ We knew that we wanted to find the middle index of the initial array, so we want
 
 - [link to code ](./array-shift.js)
 
-![image](../../assets/arrayShift.JPG)
+![image](../../assets/arrayShift.jpg)
