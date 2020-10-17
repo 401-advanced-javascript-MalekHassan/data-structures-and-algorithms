@@ -1,0 +1,26 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint:js": "eslint '**/*.js' --ignore-pattern node_modules/",
+    "lint:js:fix": "eslint '**/*.js' --ignore-pattern node_modules/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
+  }
+}
