@@ -18,4 +18,4 @@ I applied the information I gathered through my reading assignments and class de
 
 ## Solution
 
-[linked-List](https://github.com/Hisham-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/linked-list.js)
+[linked-List](https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms/blob/main/Data-Structures/linked-list.js)
