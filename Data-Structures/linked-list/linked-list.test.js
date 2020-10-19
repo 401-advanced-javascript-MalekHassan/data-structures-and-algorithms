@@ -2,6 +2,7 @@ const LinkedList = require('./linked-list');
 
 it('should instantiate', () => {
   const ll = new LinkedList();
+  console.log('instantiation', ll);
   expect(ll).toBeDefined();
 });
 
