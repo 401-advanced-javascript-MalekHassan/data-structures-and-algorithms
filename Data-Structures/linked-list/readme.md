@@ -1,7 +1,5 @@
 # Linked-list
 
-# Code Challenge 1: Reverse An Array
-
 ## Problem Domain
 
 Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
@@ -19,3 +17,5 @@ I applied the information I gathered through my reading assignments and class de
 ## Solution
 
 [linked-List](https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms/blob/main/Data-Structures/linked-list.js)
+
+![image](../../assets/linked-list.jpg)
