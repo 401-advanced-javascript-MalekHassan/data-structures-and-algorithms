@@ -7,9 +7,7 @@ it('should add water-melon after apples', () => {
   ll.append('cucumbers');
   ll.insertAfter('apples', 'water-melon');
   expect(ll.head.value).toBe('bananas');
-  console.log(ll.head.value);
   expect(ll.head.next.value).toBe('apples');
-  console.log(ll.head.next.value);
   expect(ll.head.next.next.value).toBe('water-melon');
   expect(ll.head.next.next.next.value).toBe('cucumbers');
   expect(ll.head.next.next.next.next).toBe(undefined);
