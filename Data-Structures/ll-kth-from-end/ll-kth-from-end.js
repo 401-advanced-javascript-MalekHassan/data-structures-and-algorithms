@@ -140,7 +140,7 @@ node.append(5); //2
 node.append(9); //1
 node.append(7); //0
 // node.toString();
-let x = node.ll_kth_from_end(6);
+let x = node.ll_kth_from_end(3);
 // node.insertBefore(2, 99);
 // node.toString();
 console.log(x);
