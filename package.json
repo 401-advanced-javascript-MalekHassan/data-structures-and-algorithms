@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage",
-    "lint:js": "eslint '**/*.js' --ignore-pattern node_modules/",
-    "lint:js:fix": "eslint '**/*.js' --ignore-pattern node_modules/ --fix"
+    "lint": "eslint Data-Structures challenges "
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,8 @@
   "devDependencies": {
     "eslint": "^7.11.0",
     "jest": "^26.5.3"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0"
   }
 }
