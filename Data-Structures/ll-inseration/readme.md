@@ -12,6 +12,6 @@ I applied the information I gathered through my reading assignments and class de
 
 ## Solution
 
-[linked-List](https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms/blob/main/Data-Structures/ll-inseration/ll-insertions.js)
+[ll-insertion](https://github.com/401-advanced-javascript-MalekHassan/data-structures-and-algorithms/blob/main/Data-Structures/ll-inseration/ll-insertions.js)
 
 ![image](../../assets/ll-insertion.jpg)
