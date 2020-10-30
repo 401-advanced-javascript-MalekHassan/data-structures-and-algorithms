@@ -26,10 +26,10 @@ class Stack {
     if (this.isEmpty()) {
       return 'exception';
     }
+    // console.log(this.top.value);
     let remove = this.top.value;
     let f = this.top.next;
     this.top = f;
-    // console.log(this.top);
     return remove;
   }
   peek() {
