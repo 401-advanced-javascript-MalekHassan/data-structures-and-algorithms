@@ -23,6 +23,6 @@ Create a `PseudoQueue` class. It creates an empty Queue when instantiated. Write
 
 #### PseudoQueue
 
-- `enqueue(value)`: Takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance,using the `push()` method in the Stack class
+- `enqueue(value)`: Takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance,using the `push()` method in the Stack class.
 
 - `dequeue()`: Does not take any argument, removes the node from the end of the stack,using the `pop()` method in the stack class, and returns the node’s value. Raises an exception when called on an empty queue.
