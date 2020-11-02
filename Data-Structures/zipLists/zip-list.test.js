@@ -11,6 +11,7 @@ describe('testing for zip method', () => {
     node2.append(4);
     node2.append(6);
     let x = node.zipLists(node, node2);
+    console.log(x);
     expect(node.toString()).toBe(
       `{ 1 } -> { 2 } -> { 3 } -> { 4 } -> { 5 } -> { 6 } -> NULL`
     );
