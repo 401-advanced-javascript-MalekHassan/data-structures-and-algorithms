@@ -53,7 +53,7 @@ class BinaryTree {
       if (!root) {
         return;
       }
-      if (root.right) _postOrder(root.left);
+      if (root.left) _postOrder(root.left);
       if (root.right) _postOrder(root.right);
       output.push(root.value);
     }
@@ -71,13 +71,12 @@ class BinarySearchTree extends BinaryTree {
 
     let nodeToAdd = new Node(value);
     let currentNode = this.root;
-
-    if (nodeToAdd.value === currentNode.value) {
+    if (nodeToAdd.value === currentNode) {
       throw new RangeError('Values must be unique!');
     }
 
-    if (!currentNode) {
-      currentNode = nodeToAdd;
+    if (!this.root) {
+      this.root = nodeToAdd;
     } else {
       _add(nodeToAdd, currentNode);
     }
@@ -122,5 +121,14 @@ class BinarySearchTree extends BinaryTree {
     return false;
   }
 }
+
+let treey = new BinarySearchTree();
+
+treey.add(1);
+treey.add(2);
+treey.add(3);
+treey.add(14);
+treey.add(5);
+console.log(treey);
 
 module.exports = { Node, BinaryTree, BinarySearchTree };
