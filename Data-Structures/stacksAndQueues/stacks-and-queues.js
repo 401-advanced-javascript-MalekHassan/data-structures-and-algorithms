@@ -1,5 +1,5 @@
 class Node {
-  constructor(value, next) {
+  constructor(value, next = null) {
     this.value = value;
     this.next = next;
   }
@@ -96,15 +96,15 @@ class Queue {
   }
 }
 
-// let stacky = new Stack();
-// stacky.push(1);
-// stacky.push(2);
+let stacky = new Stack();
+stacky.push(1);
+stacky.push(2);
 // stacky.push(3);
 // stacky.push(4);
 // stacky.push(15);
 // stacky.pop();
 // stacky.pop();
-// console.log(stacky);
+console.log(stacky);
 
 // let queuey = new Queue();
 
