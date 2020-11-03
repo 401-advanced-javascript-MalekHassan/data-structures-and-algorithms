@@ -10,7 +10,7 @@ it('should add water-melon after apples', () => {
   expect(ll.head.next.value).toBe('apples');
   expect(ll.head.next.next.value).toBe('water-melon');
   expect(ll.head.next.next.next.value).toBe('cucumbers');
-  expect(ll.head.next.next.next.next).toBe(undefined);
+  expect(ll.head.next.next.next.next).toBe(null);
 });
 
 it('should add water-melon before apples', () => {
@@ -23,5 +23,5 @@ it('should add water-melon before apples', () => {
   expect(ll.head.next.value).toBe('water-melon');
   expect(ll.head.next.next.value).toBe('apples');
   expect(ll.head.next.next.next.value).toBe('cucumbers');
-  expect(ll.head.next.next.next.next).toBe(undefined);
+  expect(ll.head.next.next.next.next).toBe(null);
 });

@@ -33,7 +33,7 @@ it('should append to NOT empty list', () => {
   expect(ll.head.value).toBe('bananas');
   expect(ll.head.next.value).toBe('apples');
   expect(ll.head.next.next.value).toBe('cucumbers');
-  expect(ll.head.next.next.next).toBe(undefined);
+  expect(ll.head.next.next.next).toBe(null);
 });
 
 it('should return false when checking an empty list for an included value', () => {
