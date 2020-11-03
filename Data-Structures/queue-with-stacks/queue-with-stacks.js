@@ -43,15 +43,15 @@ class PseudoQueue {
     return a;
   }
 }
-// let pes = new PseudoQueue();
+let pes = new PseudoQueue();
 
-// pes.enqueue(1);
-// pes.enqueue(2);
+pes.enqueue(1);
+pes.enqueue(2);
 // pes.enqueue(3);
 // pes.enqueue(5);
 // pes.enqueue(88);
 // pes.dequeue();
 // pes.dequeue();
-// console.log(pes.data.top);
+console.log(pes.data.top);
 
 module.exports = { Node, PseudoQueue };
