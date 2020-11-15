@@ -1,6 +1,6 @@
 'use strict';
 class Node {
-  constructor(value, next) {
+  constructor(value, next = null) {
     this.value = value;
     this.next = next;
   }
@@ -158,20 +158,20 @@ class LinkedList {
     return list1;
   }
 }
-let node = new LinkedList();
-node.insert(1); //6
-node.append(3); //5
-node.append(5);
-let list1 = node.append(7);
-let node2 = new LinkedList();
-node2.insert(2); //6
-node2.append(4); //5
-node2.append(6);
-let list2 = node2.append(8);
+// let node = new LinkedList();
+// node.insert(1); //6
+// node.append(3); //5
+// node.append(5);
+// let list1 = node.append(7);
+// let node2 = new LinkedList();
+// node2.insert(2); //6
+// node2.append(4); //5
+// node2.append(6);
+// let list2 = node2.append(8);
 // node.toString();
 // let x = node.ll_kth_from_end(3);
 // node.insertBefore(2, 99);
-let x = node.zipLists(list1, list2);
-node.toString();
+// let x = node.zipLists(list1, list2);
+// node.toString();
 
 module.exports = LinkedList;
