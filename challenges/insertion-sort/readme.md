@@ -24,3 +24,4 @@ Once you are done with your article, code a working, tested implementation of In
 [Challenge](insertion-sort.js);
 [blog](BLOG.md);
 [tests](insertion-sort.test.js);
+[bored-link](https://miro.com/welcomeonboard/qFNWzPig4R2hnpq3SVPerOV57IFvu9NAITzif7UXXntfAgnyeCw4X4kSgigI3iuD)
