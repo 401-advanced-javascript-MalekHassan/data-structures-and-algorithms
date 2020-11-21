@@ -1,6 +1,6 @@
 'use strict';
 
-const mergeSort = require('../merge-sort.js');
+const mergeSort = require('../marge-sort');
 
 let testArray = [8, 4, 23, 42, 16, 15];
 let reverseArray = [20, 18, 12, 8, 5, -2];
